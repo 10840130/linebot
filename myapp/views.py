@@ -27,7 +27,6 @@ parser = WebhookParser(settings.LINE_CHANNEL_SECRET)
 
 '''
 sendflex中的圖片位置因放在static中記得調整ngrok虛擬伺服器連結!
-目前資料是寫死的，所以需要用爬蟲的話還需要調整
 輸入關鍵字要調整
 sendQuickreply為興趣類型項目快素選單(可選動作片、劇情片、恐怖片、喜劇片、動畫片、愛情片)
 sendCarousel是電影轉盤(本周新片、上映中、即將上映各三部)
